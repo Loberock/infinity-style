@@ -7,7 +7,7 @@ const sliders = [
     desc: "No solo es un corte, es un ritual de estilo y confianza. Vive la experiencia premium que transformará tu imagen.",
     btn: "RESERVAR UNA CITA",
     link: "https://wa.me/+51933738449",
-    img: "https://images.fresha.com/locations/location-profile-images/707410/1056884/4341b22a-1e5c-4f27-8ac5-208f9e8b6b60.jpg?class=fallback",
+    img: "https://images.jumpseller.com/store/piston-barberia/store/cover/IMG_0875-2.jpg?1723851084",
   },
   {
     id: 2,

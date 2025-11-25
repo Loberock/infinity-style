@@ -1,41 +1,4 @@
-const services = [
-  {
-    id: 1,
-    name: "Cortes de Cabello",
-    desc: "Clásicos y modernos.",
-    price: "S/10 - S/20",
-    btn: "Reservar por WhatsApp",
-    link: "https://wa.me/+51933738449",
-    img: "https://lh5.googleusercontent.com/EwSzA1Y7ADq0W5A_QdybfKnjOcuCZS80ckBYrs3lCyY6P1UiCvWZv3sXMmDjnR4U2AeRgxR-2GIiuCMvlSPqTl8qJWa7TYJyh9A2XdCbYR6TQGShDoZwNGkJkZ_keUmGCh3coHA=s0",
-  },
-  {
-    id: 2,
-    name: "Diseños",
-    desc: "Estilos únicos y personalizados.",
-    price: "S/25",
-    btn: "Reservar por WhatsApp",
-    link: "https://wa.me/+51933738449",
-    img: "https://i.pinimg.com/736x/6e/13/98/6e13985ecc1830fa05b06eb79827fe27.jpg ",
-  },
-  {
-    id: 3,
-    name: "Afeitado",
-    desc: "Con navaja y acabado profesional.",
-    price: "S/5",
-    btn: "Reservar por WhatsApp",
-    link: "https://wa.me/+51933738449",
-    img: "https://joseppons.com/formacion/wp-content/uploads/2021/09/afeitado2.jpg",
-  },
-  {
-    id: 4,
-    name: "Limpieza Facial",
-    desc: "Cuida tu piel y tu imagen.",
-    price: "S/30",
-    btn: "Reservar por WhatsApp",
-    link: "https://wa.me/+51933738449",
-    img: "https://barberiahudson.com/wp-content/uploads/2023/04/BLACK-MASK.jpg",
-  },
-];
+import { services } from "../constants/servicesInfo";
 
 function Services() {
   return (
@@ -63,7 +26,7 @@ function Services() {
                   src={item.img}
                   alt={item.name}
                   loading="lazy"
-                  className="w-full h-60 object-cover"
+                  className="w-full h-96 object-cover"
                 />
                 <div className="absolute inset-0 bg-black/40"></div>
                 <h3 className="absolute bottom-3 left-4 text-2xl font-bold text-[#D4AF37] drop-shadow-lg">

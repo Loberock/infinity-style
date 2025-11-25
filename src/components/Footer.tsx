@@ -1,30 +1,40 @@
-import Logo from "../assets/logo.webp";
+import Logo from "/logo.webp";
 import SocialLinks from "./SocialLinks";
+import { services } from "../constants/servicesInfo";
 
 function Footer() {
   return (
     <footer className="bg-black/70 text-gray-300 py-8">
-      <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8 text-center md:text-left">
+      <div className="container mx-auto px-5 md:px-0 flex flex-col gap-8 md:flex-row justify-between">
         {/* Logo y descripción */}
-        <div className="mx-auto">
-          <img src={Logo} alt="Logo" className="h-[30px]" />
-          <p className="mt-2 text-sm">
+        <div className="">
+          <img src={Logo} alt="Logo" className="w-32 h-auto" />
+          <p className="mt-2 text-base">
             Barbería y productos premium para tu mejor versión.
           </p>
         </div>
 
-        {/* Contacto */}
-        <div className="mx-auto">
-          <h3 className="text-lg font-semibold mb-2 text-white">Contacto</h3>
-          <p>📍 Av. Principal 123 - Lambayeque</p>
-          <p>📞 +51 933 738 449</p>
-          <p>✉️ contacto@infinitystyle.com</p>
+        {/* Servicios */}
+        <div className="">
+          <h3 className="text-lg font-semibold mb-2 text-white">Servicios</h3>
+          {services.map((service) => (
+            <a key={service.id} className="flex flex-col" href={service.link}>
+              <p>{service.name}</p>
+            </a>
+          ))}
+        </div>
+
+        {/* Información */}
+        <div className="">
+          <h3 className="text-lg font-semibold mb-2 text-white">Información</h3>
+          <p>Av. Principal 123</p>
+          <p>+51 975 701 380</p>
         </div>
 
         {/* Redes */}
-        <div className="mx-auto">
+        <div className="">
           <h3 className="text-lg font-semibold mb-2 text-white">Síguenos</h3>
-          <SocialLinks className="text-2xl justify-center md:justify-start space-x-4"></SocialLinks>
+          <SocialLinks className="text-2xl space-x-4"></SocialLinks>
         </div>
       </div>
 

@@ -14,14 +14,13 @@ export const NAV_LINKS: LinkItem[] = [
   { id: 2, name: "Servicios", link: "#services" },
   { id: 3, name: "Productos", link: "#products" },
   { id: 4, name: "Ubicación", link: "#ubication" },
-  { id: 5, name: "Reseñas", link: "#reviews" },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     id: 1,
     name: "WhatsApp",
-    link: "https://wa.me/+51933738449",
+    link: "https://wa.me/+51975701380",
     icon: "bi bi-whatsapp",
     color:
       "hover:text-green-500 hover:filter hover:drop-shadow-[0_0_15px_rgba(34,197,94,1)]",
@@ -29,7 +28,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     id: 2,
     name: "Facebook",
-    link: "https://www.facebook.com",
+    link: "https://www.facebook.com/jesusalexander.garciahuima",
     icon: "bi bi-facebook",
     color:
       "hover:text-blue-500 hover:filter hover:drop-shadow-[0_0_15px_rgba(59,130,246,1)]",
@@ -37,7 +36,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     id: 3,
     name: "Instagram",
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/infinitystyle2025/",
     icon: "bi bi-instagram",
     color: `
       hover:filter

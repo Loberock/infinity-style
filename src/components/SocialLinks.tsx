@@ -1,6 +1,6 @@
 import React from "react";
-import { SOCIAL_LINKS } from "../constants";
-import type { SocialLink } from "../constants";
+import { SOCIAL_LINKS } from "../constants/links";
+import type { SocialLink } from "../constants/links";
 
 interface SocialLinksProps {
   items?: SocialLink[];

@@ -1,0 +1,38 @@
+export const services = [
+  {
+    id: 1,
+    name: "Cortes de Cabello",
+    desc: "Clásicos y modernos.",
+    price: "S/10 - S/20",
+    btn: "Reservar por WhatsApp",
+    link: "https://wa.me/+51933738449",
+    img: "https://lh5.googleusercontent.com/EwSzA1Y7ADq0W5A_QdybfKnjOcuCZS80ckBYrs3lCyY6P1UiCvWZv3sXMmDjnR4U2AeRgxR-2GIiuCMvlSPqTl8qJWa7TYJyh9A2XdCbYR6TQGShDoZwNGkJkZ_keUmGCh3coHA=s0",
+  },
+  {
+    id: 2,
+    name: "Diseños",
+    desc: "Estilos únicos y personalizados.",
+    price: "S/25",
+    btn: "Reservar por WhatsApp",
+    link: "https://wa.me/+51933738449",
+    img: "https://scontent-lim1-1.xx.fbcdn.net/v/t51.82787-15/574239353_17867767395470250_4236718876566541062_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFSOzxXlhjP8kh5Pm0RmYL3HyvuChJRVycfK-4KElFXJwpHVjJgC5zKZbY2V3nna6TMMl77iwkuz1VGLvquhZlV&_nc_ohc=y8tzrozzwwwQ7kNvwFg9GiD&_nc_oc=Adk26EkynnQCv8U-htxpZKCJDCXhrMY4Wz_pQPyrxdHvoQOYYLYRGBnUpPR8vq1LRZo&_nc_zt=23&_nc_ht=scontent-lim1-1.xx&_nc_gid=Og1TGVAm7swmn_3drWtGcw&oh=00_AfhaQH5N25jenOkAIKacWwUtdOW66xGkP-S3l7WzaGPW_Q&oe=692BA060",
+  },
+  {
+    id: 3,
+    name: "Afeitado",
+    desc: "Con navaja y acabado profesional.",
+    price: "S/5",
+    btn: "Reservar por WhatsApp",
+    link: "https://wa.me/+51933738449",
+    img: "https://joseppons.com/formacion/wp-content/uploads/2021/09/afeitado2.jpg",
+  },
+  {
+    id: 4,
+    name: "Limpieza Facial",
+    desc: "Cuida tu piel y tu imagen.",
+    price: "S/30",
+    btn: "Reservar por WhatsApp",
+    link: "https://wa.me/+51933738449",
+    img: "https://barberiahudson.com/wp-content/uploads/2023/04/BLACK-MASK.jpg",
+  },
+];

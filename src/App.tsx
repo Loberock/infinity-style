@@ -1,12 +1,10 @@
-import React, { Suspense } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-const Hero = React.lazy(() => import("./pages/Hero"));
-const Services = React.lazy(() => import("./pages/Services"));
-const Products = React.lazy(() => import("./pages/Products"));
-const Ubication = React.lazy(() => import("./pages/Ubication"));
-const Reviews = React.lazy(() => import("./pages/Reviews"));
+import Hero from "./pages/Hero";
+import Services from "./pages/Services";
+import Products from "./pages/Products";
+import Ubication from "./pages/Ubication";
 
 function App() {
   return (
@@ -14,19 +12,10 @@ function App() {
       <Navbar />
 
       <main className="flex-1">
-        <Suspense
-          fallback={
-            <div className="h-screen bg-black flex items-center justify-center text-[#D4AF37]">
-              Cargando secciones...
-            </div>
-          }
-        >
-          <Hero />
-          <Services />
-          <Products />
-          <Ubication />
-          <Reviews />
-        </Suspense>
+        <Hero />
+        <Services />
+        <Products />
+        <Ubication />
       </main>
 
       <Footer />
