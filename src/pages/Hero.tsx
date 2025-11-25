@@ -6,7 +6,7 @@ const sliders = [
     title: "UNA EXPERIENCIA DE BARBERÍA DE PRIMER NIVEL",
     desc: "No solo es un corte, es un ritual de estilo y confianza. Vive la experiencia premium que transformará tu imagen.",
     btn: "RESERVAR UNA CITA",
-    link: "https://wa.me/+51933738449",
+    link: "https://wa.me/+51975701380",
     img: "https://images.jumpseller.com/store/piston-barberia/store/cover/IMG_0875-2.jpg?1723851084",
   },
   {
